@@ -4002,7 +4002,7 @@ ul.uk-nav-sub {
 .uk-navbar-nav > li:hover > a,
 .uk-navbar-nav > li > a:focus,
 .uk-navbar-nav > li > a.uk-open {
-  color: #666;
+  color: #fff;
   outline: none;
 }
 /* OnClick */
@@ -4011,7 +4011,7 @@ ul.uk-nav-sub {
 }
 /* Active */
 .uk-navbar-nav > li.uk-active > a {
-  color: #333;
+  color: #fff;
 }
 /* Item
  ========================================================================== */

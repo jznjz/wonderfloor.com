@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Title</title>
+        <title>Wonderfloor</title>
+    <link rel="icon" href="img/W.svg" style="height: 20px">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/uikit.css" />
@@ -10,33 +11,53 @@
     </head>
     <body>
         
-        <nav class="uk-navbar-container uk-margin" uk-navbar>
-    <div class="uk-navbar-left">
+        <div class="uk-position-relative">
 
-        <a class="uk-navbar-item uk-logo" href="#">Logo</a>
-
-        <ul class="uk-navbar-nav">
-            <li>
-                <a href="#">
-                    <span class="uk-icon uk-margin-small-right" uk-icon="icon: star"></span>
-                    Features
-                </a>
-            </li>
+    <div class="uk-position-top">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar uk-sticky>
+            <div class="uk-navbar-left" style="padding: 40px">
+                <img src="img/logo.svg">
+            </div>
+            <div class="uk-navbar-right uk-visible@m" style="padding: 40px">
+                <ul class="uk-navbar-nav">
+            <li class="uk-active"><a href="#">Home</a></li>
+            <li><a href="#">Flooring</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
         </ul>
 
-        <div class="uk-navbar-item">
-            <div>Some <a href="#">Link</a></div>
-        </div>
+            </div>
+            <div class="uk-navbar-right uk-hidden@m" style="padding: 20px; min-width: 50px">
+<a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav-primary"></a>
 
-        <div class="uk-navbar-item">
-            <form action="javascript:void(0)">
-                <input class="uk-input uk-form-width-small" type="text" placeholder="Input">
-                <button class="uk-button uk-button-default">Button</button>
-            </form>
-        </div>
+<div id="offcanvas-nav-primary" uk-offcanvas="flip: true;mode: push">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            <li class="uk-active"><a href="#">Active</a></li>
+            <li class="uk-parent">
+                <a href="#">Parent</a>
+                <ul class="uk-nav-sub">
+                    <li><a href="#">Sub item</a></li>
+                    <li><a href="#">Sub item</a></li>
+                </ul>
+            </li>
+            <li class="uk-nav-header">Header</li>
+            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: table"></span> Item</a></li>
+            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Item</a></li>
+            <li class="uk-nav-divider"></li>
+            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span> Item</a></li>
+        </ul>
 
     </div>
-</nav>
+</div>
+            </div>
+        </nav>
+    </div>
+</div>
+        <div class="uk-cover-container" uk-height-viewport>
+    <img src="img/shutterstock_131933759e.png" alt="" uk-cover>
+</div>
         <div class="uk-cover-container" uk-height-viewport>
     <img src="img/shutterstock_131933759e.png" alt="" uk-cover>
 </div>
