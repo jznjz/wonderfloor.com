@@ -205,7 +205,7 @@ position: fixed;
 
 body input + label {
   position: fixed;
-  top: 40px;
+  top: 50px;
   right: 8%;
   height: 40px;
   width: 35px;
