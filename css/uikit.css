@@ -2825,6 +2825,7 @@ select.uk-form-width-xsmall {
 .uk-card-footer {
   padding: 10px 0px;
     margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 /* Desktop and bigger */
 @media (min-width: 1200px) {
@@ -2838,6 +2839,9 @@ select.uk-form-width-xsmall {
     padding: 10px 0px;
     margin-top: 20px;
   }
+    .uk-card-footer a{
+font-size: 1.2em;
+}
 }
 /*
  * Micro clearfix
